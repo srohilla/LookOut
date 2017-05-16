@@ -1,0 +1,6 @@
+framework module Pods_LookOut {
+  umbrella header "Pods-LookOut-umbrella.h"
+
+  export *
+  module * { export * }
+}
