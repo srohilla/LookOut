@@ -36,16 +36,19 @@ class SecondViewController: UIViewController,MKMapViewDelegate,CLLocationManager
         //create a region
         let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
         //render this to a map
+        latitude=location.coordinate.latitude
+        longitude=location.coordinate.longitude
+        UserDefaults.standard.set(latitude, forKey: "currentLatitude")
+        UserDefaults.standard.set(longitude, forKey: "currentLongitude")
+        mapView.setRegion(region, animated: true)
         
-    //    mapView.setRegion(region, animated: true)
-        
-      //  self.mapView.showsUserLocation=true
+        self.mapView.showsUserLocation=true
         
         
         if UIApplication.shared.applicationState == .active {
               if((UserDefaults.standard.string(forKey: "username")) != nil)
               {
-                mapView.showAnnotations(self.locations, animated: true)
+           //     mapView.showAnnotations(self.locations, animated: true)
                 self.ref?.child("users").child(UserDefaults.standard.string(forKey: "username")!).child("currentLocation").child("latitude").setValue(location.coordinate.latitude)
                 self.ref?.child("users").child(UserDefaults.standard.string(forKey: "username")!).child("currentLocation").child("longitude").setValue(location.coordinate.longitude)
            //     print("App is in foreground. New location is %@", location)
@@ -62,30 +65,11 @@ class SecondViewController: UIViewController,MKMapViewDelegate,CLLocationManager
         }
         
         
-        let locations = [
-            ["title": "New York, NY",    "latitude": 40.713054, "longitude": -74.007228],
-            ["title": "Los Angeles, CA", "latitude": 34.052238, "longitude": -118.243344],
-            ["title": "Chicago, IL",     "latitude": 41.883229, "longitude": -87.632398]
-        ]
-        
-        for location in locations {
-            let annotation = MKPointAnnotation()
-            annotation.title = location["title"] as? String
-            annotation.coordinate = CLLocationCoordinate2D(latitude: location["latitude"] as! Double, longitude: location["longitude"] as! Double)
-            self.mapView.addAnnotation(annotation)
-        }
-        
-        
-        
-        
-        
-        
-        
-        
         
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBest
@@ -103,18 +87,5 @@ class SecondViewController: UIViewController,MKMapViewDelegate,CLLocationManager
     }
     
     
-    
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }

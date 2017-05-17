@@ -26,15 +26,14 @@ class ViewController: UIViewController,UITextFieldDelegate {
            emailTextField.text = UserDefaults.standard.string(forKey: "email")
             passwordTextField.text=UserDefaults.standard.string(forKey: "password")
         }
-        // Do any additional setup after loading the view, typically from a nib.
+        
         
         
         
         //Looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         
-        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
-        //tap.cancelsTouchesInView = false
+        
         
         view.addGestureRecognizer(tap)
     }
@@ -44,7 +43,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         if self.emailTextField.text == "" || self.passwordTextField.text == "" {
             
-            //Alert to tell the user that there was an error because they didn't fill anything in the textfields because they didn't fill anything in
+           
             
             let alertController = UIAlertController(title: "Error", message: "Please enter an email and password.", preferredStyle: .alert)
             
@@ -65,12 +64,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
             
                         if snapshot.childrenCount > 0 {
                          
-                            //clearing the list
-                         //   self.userList.removeAll()
-                            
-                            //iterating through all the values
-                          //  for users in snapshot.children.allObjects as! [FIRDataSnapshot] {
-                                //getting values
+                          
                                 for users in snapshot.children.allObjects as! [FIRDataSnapshot] {
                                 let userObject = users.value as? [String: AnyObject]
                                 print(userObject)
@@ -83,11 +77,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
                                 self.currentUser=username as! String
                                 }
                                 
-                                //creating artist object with model and fetched values
-                           //     let user = UserModel(username: username as! String?, email: email as! String?, friendlist: friendlist as! [String]?, current: <#[String : String]?#>)
-                                
-                                //appending it to list
-                           //     self.userList.append(user)
+                               
                             }
                             
                             //reloading the tableview
@@ -97,9 +87,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
                     
                   
                     
-                //    ref = FIRDatabase.database().reference().child("users");
-                    //observing the data changes
-                 //   ref.observe(FIRDataEventType.value, with: { (snapshot) in
+                
                     print("******************************************")
                     print(self.currentUser)
                     UserDefaults.standard.set(true,forKey:"LoggedIn")

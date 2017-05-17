@@ -23,10 +23,46 @@ class AccountUpdateViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet weak var password: UITextField!
     
-    
+        
     @IBAction func updateInfo(_ sender: Any) {
         
         self.ref = FIRDatabase.database().reference()
+        
+        if self.email.text == "" {
+            let alertController = UIAlertController(title: "Oops!", message: "Please enter an email.", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            present(alertController, animated: true, completion: nil)
+            
+        } else {
+            FIRAuth.auth()?.sendPasswordReset(withEmail: self.email.text!, completion: { (error) in
+                
+                var title = ""
+                var message = ""
+                
+                if error != nil {
+                    title = "Error!"
+                    message = (error?.localizedDescription)!
+                } else {
+                    title = "Success!"
+                    message = "Password reset email sent."
+                    self.email.text = ""
+                }
+                
+                let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+                
+                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                alertController.addAction(defaultAction)
+                
+                self.present(alertController, animated: true, completion: nil)
+            })
+        }
+        
+        
+        
+        
         
         
     }
@@ -43,8 +79,7 @@ class AccountUpdateViewController: UIViewController,UITextFieldDelegate {
         //Looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         
-        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
-        //tap.cancelsTouchesInView = false
+     
         
         view.addGestureRecognizer(tap)
         
@@ -57,7 +92,7 @@ class AccountUpdateViewController: UIViewController,UITextFieldDelegate {
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.view.endEditing(true)
-        return false
+        return true
     }
     
     

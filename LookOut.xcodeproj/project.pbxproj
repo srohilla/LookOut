@@ -11,8 +11,23 @@
 		582795141ECA5C0F007A7FA1 /* Teams Filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 582795131ECA5C0F007A7FA1 /* Teams Filled.png */; };
 		582795181ECA67BD007A7FA1 /* seema.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 582795171ECA67BD007A7FA1 /* seema.jpg */; };
 		5827951A1ECA6C2D007A7FA1 /* AccountUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582795191ECA6C2D007A7FA1 /* AccountUpdateViewController.swift */; };
+		586A2EC51ECBC1DC001EAD65 /* sos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 586A2EC41ECBC1DC001EAD65 /* sos.jpg */; };
 		586EAD7F1EC99FAF00EEBC0B /* UITabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586EAD7E1EC99FAF00EEBC0B /* UITabViewController.swift */; };
 		586EAD811EC9A39700EEBC0B /* FindFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586EAD801EC9A39700EEBC0B /* FindFriendViewController.swift */; };
+		5875FF041ECB06BA00D6D390 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875FF031ECB06BA00D6D390 /* ChatViewController.swift */; };
+		5875FF061ECB5BC400D6D390 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875FF051ECB5BC400D6D390 /* Constants.swift */; };
+		5875FF081ECB5BD600D6D390 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875FF071ECB5BD600D6D390 /* AppState.swift */; };
+		5875FF0A1ECB5BEE00D6D390 /* MeasurementHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875FF091ECB5BEE00D6D390 /* MeasurementHelper.swift */; };
+		5875FF0C1ECB79C300D6D390 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875FF0B1ECB79C300D6D390 /* EmailViewController.swift */; };
+		5875FF0E1ECB819B00D6D390 /* bhakti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5875FF0D1ECB819B00D6D390 /* bhakti.jpg */; };
+		5875FF101ECB94DC00D6D390 /* Home-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5875FF0F1ECB94DC00D6D390 /* Home-50.png */; };
+		5875FF121ECB96BA00D6D390 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5875FF111ECB96BA00D6D390 /* home.png */; };
+		5875FF141ECB96DC00D6D390 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 5875FF131ECB96DC00D6D390 /* lock.png */; };
+		5875FF161ECB971800D6D390 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5875FF151ECB971800D6D390 /* trophy.png */; };
+		5875FF181ECB987500D6D390 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875FF171ECB987500D6D390 /* AboutMeViewController.swift */; };
+		5875FF1A1ECBA68100D6D390 /* paper-clip.png in Resources */ = {isa = PBXBuildFile; fileRef = 5875FF191ECBA68100D6D390 /* paper-clip.png */; };
+		5875FF1C1ECBA6C600D6D390 /* emergency.png in Resources */ = {isa = PBXBuildFile; fileRef = 5875FF1B1ECBA6C600D6D390 /* emergency.png */; };
+		589FE7E21ECAE15F00A08B04 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FE7E11ECAE15F00A08B04 /* VCMapView.swift */; };
 		58D82C121EC911D80068867B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D82C111EC911D80068867B /* UserModel.swift */; };
 		58FA91AA1ECA44E60002E36E /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FA91A91ECA44E60002E36E /* FavViewController.swift */; };
 		9202EA1EF4B6FFEFFD8CDFC2 /* Pods_LookOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D18DDB7A1CD56AD023DB8E /* Pods_LookOut.framework */; };
@@ -23,6 +38,7 @@
 		99113F881EB93AE8000A5F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99113F861EB93AE8000A5F8C /* LaunchScreen.storyboard */; };
 		99113F901EB93B98000A5F8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99113F8F1EB93B98000A5F8C /* GoogleService-Info.plist */; };
 		9913D41E1EC7B33C00AF67A3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9913D41D1EC7B33C00AF67A3 /* SignUpViewController.swift */; };
+		99511BFE1ECBBEAF00A4C08D /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99511BFD1ECBBEAF00A4C08D /* default.png */; };
 		99BF1A1E1EC9016300C068C1 /* wolf-cartoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BF1A1D1EC9016300C068C1 /* wolf-cartoon.png */; };
 		99BF1A201EC9016B00C068C1 /* smiley-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BF1A1F1EC9016B00C068C1 /* smiley-smile.png */; };
 		99BF1A221EC9017100C068C1 /* pin-map-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BF1A211EC9017100C068C1 /* pin-map-7.png */; };
@@ -41,8 +57,23 @@
 		582795131ECA5C0F007A7FA1 /* Teams Filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teams Filled.png"; sourceTree = "<group>"; };
 		582795171ECA67BD007A7FA1 /* seema.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seema.jpg; sourceTree = "<group>"; };
 		582795191ECA6C2D007A7FA1 /* AccountUpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountUpdateViewController.swift; sourceTree = "<group>"; };
+		586A2EC41ECBC1DC001EAD65 /* sos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sos.jpg; sourceTree = "<group>"; };
 		586EAD7E1EC99FAF00EEBC0B /* UITabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabViewController.swift; sourceTree = "<group>"; };
 		586EAD801EC9A39700EEBC0B /* FindFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendViewController.swift; sourceTree = "<group>"; };
+		5875FF031ECB06BA00D6D390 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5875FF051ECB5BC400D6D390 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5875FF071ECB5BD600D6D390 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		5875FF091ECB5BEE00D6D390 /* MeasurementHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementHelper.swift; sourceTree = "<group>"; };
+		5875FF0B1ECB79C300D6D390 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		5875FF0D1ECB819B00D6D390 /* bhakti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bhakti.jpg; sourceTree = "<group>"; };
+		5875FF0F1ECB94DC00D6D390 /* Home-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-50.png"; sourceTree = "<group>"; };
+		5875FF111ECB96BA00D6D390 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		5875FF131ECB96DC00D6D390 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		5875FF151ECB971800D6D390 /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
+		5875FF171ECB987500D6D390 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		5875FF191ECBA68100D6D390 /* paper-clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper-clip.png"; sourceTree = "<group>"; };
+		5875FF1B1ECBA6C600D6D390 /* emergency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emergency.png; sourceTree = "<group>"; };
+		589FE7E11ECAE15F00A08B04 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		58D82C111EC911D80068867B /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		58FA91A91ECA44E60002E36E /* FavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
 		87D18DDB7A1CD56AD023DB8E /* Pods_LookOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LookOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +87,7 @@
 		99113F8F1EB93B98000A5F8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9913D41D1EC7B33C00AF67A3 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		994C18731EB9727E00EC728C /* LookOut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LookOut.entitlements; sourceTree = "<group>"; };
+		99511BFD1ECBBEAF00A4C08D /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = SOURCE_ROOT; };
 		99BF1A1D1EC9016300C068C1 /* wolf-cartoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wolf-cartoon.png"; sourceTree = "<group>"; };
 		99BF1A1F1EC9016B00C068C1 /* smiley-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smiley-smile.png"; sourceTree = "<group>"; };
 		99BF1A211EC9017100C068C1 /* pin-map-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-map-7.png"; sourceTree = "<group>"; };
@@ -117,18 +149,34 @@
 			isa = PBXGroup;
 			children = (
 				994C18731EB9727E00EC728C /* LookOut.entitlements */,
+				5875FF051ECB5BC400D6D390 /* Constants.swift */,
+				5875FF0B1ECB79C300D6D390 /* EmailViewController.swift */,
+				5875FF091ECB5BEE00D6D390 /* MeasurementHelper.swift */,
+				5875FF071ECB5BD600D6D390 /* AppState.swift */,
 				586EAD801EC9A39700EEBC0B /* FindFriendViewController.swift */,
 				582795191ECA6C2D007A7FA1 /* AccountUpdateViewController.swift */,
+				5875FF171ECB987500D6D390 /* AboutMeViewController.swift */,
+				5875FF031ECB06BA00D6D390 /* ChatViewController.swift */,
 				58D82C111EC911D80068867B /* UserModel.swift */,
-				582795111ECA5B20007A7FA1 /* Lock-50.png */,
 				99113F7D1EB93AE8000A5F8C /* AppDelegate.swift */,
-				582795171ECA67BD007A7FA1 /* seema.jpg */,
 				99113F7F1EB93AE8000A5F8C /* ViewController.swift */,
 				58FA91A91ECA44E60002E36E /* FavViewController.swift */,
-				582795131ECA5C0F007A7FA1 /* Teams Filled.png */,
+				589FE7E11ECAE15F00A08B04 /* VCMapView.swift */,
 				586EAD7E1EC99FAF00EEBC0B /* UITabViewController.swift */,
 				9913D41D1EC7B33C00AF67A3 /* SignUpViewController.swift */,
 				99FEC1641EC6790600D5C147 /* SecondViewController.swift */,
+				5875FF0F1ECB94DC00D6D390 /* Home-50.png */,
+				5875FF131ECB96DC00D6D390 /* lock.png */,
+				5875FF191ECBA68100D6D390 /* paper-clip.png */,
+				99511BFD1ECBBEAF00A4C08D /* default.png */,
+				5875FF1B1ECBA6C600D6D390 /* emergency.png */,
+				5875FF151ECB971800D6D390 /* trophy.png */,
+				582795111ECA5B20007A7FA1 /* Lock-50.png */,
+				586A2EC41ECBC1DC001EAD65 /* sos.jpg */,
+				5875FF111ECB96BA00D6D390 /* home.png */,
+				5875FF0D1ECB819B00D6D390 /* bhakti.jpg */,
+				582795171ECA67BD007A7FA1 /* seema.jpg */,
+				582795131ECA5C0F007A7FA1 /* Teams Filled.png */,
 				99113F811EB93AE8000A5F8C /* Main.storyboard */,
 				99113F841EB93AE8000A5F8C /* Assets.xcassets */,
 				99113F861EB93AE8000A5F8C /* LaunchScreen.storyboard */,
@@ -225,17 +273,26 @@
 			files = (
 				582795121ECA5B20007A7FA1 /* Lock-50.png in Resources */,
 				99BF1A1E1EC9016300C068C1 /* wolf-cartoon.png in Resources */,
+				5875FF121ECB96BA00D6D390 /* home.png in Resources */,
+				586A2EC51ECBC1DC001EAD65 /* sos.jpg in Resources */,
 				99D33E901EC8F7EF000BA47A /* lookout_logo.png in Resources */,
 				582795181ECA67BD007A7FA1 /* seema.jpg in Resources */,
+				5875FF1A1ECBA68100D6D390 /* paper-clip.png in Resources */,
 				582795141ECA5C0F007A7FA1 /* Teams Filled.png in Resources */,
 				99113F881EB93AE8000A5F8C /* LaunchScreen.storyboard in Resources */,
 				99BF1A241EC9017A00C068C1 /* id-card.png in Resources */,
 				99BF1A201EC9016B00C068C1 /* smiley-smile.png in Resources */,
 				99113F901EB93B98000A5F8C /* GoogleService-Info.plist in Resources */,
 				99BF1A261EC9018100C068C1 /* heart-7.png in Resources */,
+				5875FF161ECB971800D6D390 /* trophy.png in Resources */,
 				99113F851EB93AE8000A5F8C /* Assets.xcassets in Resources */,
+				5875FF141ECB96DC00D6D390 /* lock.png in Resources */,
 				99BF1A221EC9017100C068C1 /* pin-map-7.png in Resources */,
+				5875FF101ECB94DC00D6D390 /* Home-50.png in Resources */,
+				99511BFE1ECBBEAF00A4C08D /* default.png in Resources */,
+				5875FF0E1ECB819B00D6D390 /* bhakti.jpg in Resources */,
 				99113F831EB93AE8000A5F8C /* Main.storyboard in Resources */,
+				5875FF1C1ECBA6C600D6D390 /* emergency.png in Resources */,
 				99BF1A2C1EC903BD00C068C1 /* plus-sign.png in Resources */,
 				99BF1A281EC9018B00C068C1 /* bell.png in Resources */,
 			);
@@ -298,13 +355,20 @@
 			files = (
 				99FEC1651EC6790600D5C147 /* SecondViewController.swift in Sources */,
 				99113F801EB93AE8000A5F8C /* ViewController.swift in Sources */,
+				5875FF181ECB987500D6D390 /* AboutMeViewController.swift in Sources */,
+				5875FF0A1ECB5BEE00D6D390 /* MeasurementHelper.swift in Sources */,
+				5875FF041ECB06BA00D6D390 /* ChatViewController.swift in Sources */,
+				5875FF0C1ECB79C300D6D390 /* EmailViewController.swift in Sources */,
+				589FE7E21ECAE15F00A08B04 /* VCMapView.swift in Sources */,
 				5827951A1ECA6C2D007A7FA1 /* AccountUpdateViewController.swift in Sources */,
 				586EAD7F1EC99FAF00EEBC0B /* UITabViewController.swift in Sources */,
 				586EAD811EC9A39700EEBC0B /* FindFriendViewController.swift in Sources */,
 				9913D41E1EC7B33C00AF67A3 /* SignUpViewController.swift in Sources */,
 				58D82C121EC911D80068867B /* UserModel.swift in Sources */,
 				58FA91AA1ECA44E60002E36E /* FavViewController.swift in Sources */,
+				5875FF081ECB5BD600D6D390 /* AppState.swift in Sources */,
 				99113F7E1EB93AE8000A5F8C /* AppDelegate.swift in Sources */,
+				5875FF061ECB5BC400D6D390 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

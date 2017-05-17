@@ -18,6 +18,7 @@ class SignUpViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var PassWord: UITextField!
     var ref: FIRDatabaseReference?
     
+    @IBOutlet weak var emergencyContact: UITextField!
     @IBAction func createAccount(_ sender: Any) {
         if (self.Email.text?.isEmpty)!  || (self.PassWord.text?.isEmpty)! || (self.userName.text?.isEmpty)! {
             let alertController = UIAlertController(title: "Error", message: "Please enter the missing Field", preferredStyle: .alert)
@@ -48,6 +49,7 @@ class SignUpViewController: UIViewController,UITextFieldDelegate {
                             UserDefaults.standard.set(self.userName.text,forKey: "username")
                             UserDefaults.standard.set(self.Email.text,forKey: "email")
                             UserDefaults.standard.set(self.PassWord.text, forKey: "password")
+                            UserDefaults.standard.set(self.emergencyContact.text, forKey: "emergencyContact")
                             UserDefaults.standard.synchronize()
                             print("You have successfully signed up")
                             //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
@@ -103,15 +105,7 @@ class SignUpViewController: UIViewController,UITextFieldDelegate {
 
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+        
     
     //Calls this function when the tap is recognized.
     func dismissKeyboard() {
