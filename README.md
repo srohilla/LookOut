@@ -10,3 +10,10 @@ The App is built with the help of firebase Real-time Database. It integrates Fir
 
 ## App Screens 
 
+1) Login Screen
+
+![picture7](https://user-images.githubusercontent.com/20126924/27990106-e41cad2c-6400-11e7-9937-ff9fc1f09e31.png)
+
+2) Home Screen
+
+![picture5](https://user-images.githubusercontent.com/20126924/27990105-e0c78b06-6400-11e7-9ffb-45926ca8979c.png)
