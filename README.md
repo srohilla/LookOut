@@ -12,24 +12,26 @@ The App is built with the help of firebase Real-time Database. It integrates Fir
 
 1) Login Screen
 
-![picture7](https://user-images.githubusercontent.com/20126924/27990106-e41cad2c-6400-11e7-9937-ff9fc1f09e31.png)
+![picture7](https://user-images.githubusercontent.com/20126924/27990117-4e673ad0-6401-11e7-82e4-8c60d5c109ea.png)
+
+
 
 2) Home Screen
 
-![picture5](https://user-images.githubusercontent.com/20126924/27990105-e0c78b06-6400-11e7-9ffb-45926ca8979c.png)
+![picture5](https://user-images.githubusercontent.com/20126924/27990119-4e759396-6401-11e7-987a-b4d89a5bec9e.png)
 
 ## References
 
-[1] http://www.appcoda.com/firebase-login-signup/
-[2]https://github.com/jessesquires/JSQMessagesViewController
-[3]https://github.com/LunarFlash/Chaty
-[4]https://www.raywenderlich.com/143128/background-modes-tutorial-getting-started
-[5]https://www.simplifiedios.net/firebase-realtime-database-tutorial/
-[6] https://averybub.com/2016/06/29/retrieving-data-from-the-firebase-database/
-[7] https://codelabs.developers.google.com/codelabs/firebase-ios-swift/#3
-[8] https://codelabs.developers.google.com/codelabs/firebase-ios-swift/#0
-[9]https://itunes.apple.com/us/app/letsmeetapp-nearby-friends-notification/id699409128?mt=8
-[10] https://techcrunch.com/2016/12/22/facebook-wave/
-[11]https://itunes.apple.com/us/app/find-my-friends/id466122094?mt=8
-[12]  https://www.glympse.com
-[13] https://firebase.google.com/docs/auth/
+1) http://www.appcoda.com/firebase-login-signup/
+2) https://github.com/jessesquires/JSQMessagesViewController
+3) https://github.com/LunarFlash/Chaty
+4) https://www.raywenderlich.com/143128/background-modes-tutorial-getting-started
+5) https://www.simplifiedios.net/firebase-realtime-database-tutorial/
+6) https://averybub.com/2016/06/29/retrieving-data-from-the-firebase-database/
+7) https://codelabs.developers.google.com/codelabs/firebase-ios-swift/#3
+8) https://codelabs.developers.google.com/codelabs/firebase-ios-swift/#0
+9) https://itunes.apple.com/us/app/letsmeetapp-nearby-friends-notification/id699409128?mt=8 
+10) https://techcrunch.com/2016/12/22/facebook-wave/
+11) https://itunes.apple.com/us/app/find-my-friends/id466122094?mt=8
+12) https://www.glympse.com
+13) https://firebase.google.com/docs/auth/
