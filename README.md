@@ -6,3 +6,4 @@ Lookout. It is an iOS app built to locate friends in real-time. The app takes in
 ## Architecture
 The App is built with the help of firebase Real-time Database. It integrates Firebase Authentication to let user sign into our App. 
 
+![picture4](https://user-images.githubusercontent.com/20126924/27990091-7669b2de-6400-11e7-9286-cc3eca529e34.png)
